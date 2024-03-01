@@ -45,5 +45,5 @@ if __name__ == "__main__":
         print("Usage: python insert_audio.py <input_presentation.pptx>")
         sys.exit(1)
 
-    input_pptx_file = sys.argv[1]  # Replace with your input PPTX file
+    input_pptx_file = sys.argv[1]
     insert_audio_to_pptx(input_pptx_file)
