@@ -21,11 +21,10 @@ This script create a new folder named as `<input_presentation>_notes` in the fol
 ### Insert autoplay audio into PPTX
 `python insert_audio.py <input_presentation.pptx>`
 
-This script will scan all the mp3 files named as `Slide X.mp3` (X being the index number) from the `audio` folder which is located at the same folder as the input pptx file, insert them into corresponding slides and save as a new file named as `<input_presentation>_with_audio.pptx`. The folder structure ***before*** running the script should be:
+This script will scan all the mp3 files named as `Slide X.mp3` (X being the index number) from the `audio` folder which is located at the same folder as the input pptx file, insert them into corresponding slides, make them autoplay with the slides and save as a new file named as `<input_presentation>_with_audio.pptx`. The folder structure ***before*** running the script should be:
 
 ```
 ├── input_presentation.pptx
-├── input_presentation_with_audio.pptx
 ├── audio
 │   ├── Slide 1.mp3
 │   ├── Slide 2.mp3
