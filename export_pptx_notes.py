@@ -27,7 +27,7 @@ def extract_notes_from_pptx(pptx_file):
 
         # Save notes to a text file
         output_filename = os.path.join(notes_dir, f"Slide {slide_number}.txt")
-        with open(output_filename, "w", encoding="utf-8") as f:
+        with open(output_filename, "w", encoding="utf-8-sig") as f: # Compatible with Microsoft Speech Studio
             f.write(trimmed_notes)
 
     print(f"Notes extracted and saved in directory: {notes_dir}")
