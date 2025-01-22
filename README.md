@@ -1,5 +1,5 @@
 # pptx-scripts
-Some PPTX scripts written in Python for personal use.
+Some PPTX scripts written in Python for daily work.
 
 ## Usage
 You need [python-pptx](https://pypi.org/project/python-pptx/) to run these scripts. If you haven't installed it already, install with `pip install python-pptx`
